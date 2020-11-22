@@ -30,3 +30,4 @@ jobs:
       working-directory: my-app
     - run: npm test
       working-directory: my-app
+    - run:  bash <(curl -s https://codecov.io/bash)
